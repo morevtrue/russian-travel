@@ -1,0 +1,13 @@
+.lead__figure {
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 64px;
+    width: 100%;
+    max-width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__figure {
+        max-width: 928px;
+    }
+}

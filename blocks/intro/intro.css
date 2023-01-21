@@ -1,0 +1,9 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    background-color: #2a2c2f;
+    width: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #ffffff;
+}

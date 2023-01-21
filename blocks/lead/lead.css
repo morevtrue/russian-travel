@@ -1,0 +1,6 @@
+.lead {
+    display: flex;
+    flex-direction: column;
+    background-color: #2a2c2f;
+    width: auto;
+}
