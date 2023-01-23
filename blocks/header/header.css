@@ -1,7 +1,5 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    width: auto;
-    background-color: #2a2c2f;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	width: auto;
 }

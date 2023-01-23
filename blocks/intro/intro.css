@@ -1,9 +1,25 @@
 .intro {
-    display: flex;
-    flex-direction: column;
-    background-color: #2a2c2f;
-    width: auto;
-    font-family: 'Inter';
-    font-style: normal;
-    color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 984px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1279px) {
+	.intro {
+		max-width: 928px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.intro {
+		width: 93.75vw;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.intro {
+		width: 90vw;
+	}
 }
