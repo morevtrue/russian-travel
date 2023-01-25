@@ -3,13 +3,13 @@
 	flex-direction: row;
 	gap: 18px;
 	list-style-type: none;
-	margin: 0;
+	margin: 46px 48px 0 0;
 	padding: 0;
-	margin-right: 48px;
-	margin-top: 46px;
+	/* margin-right: 48px;
+	margin-top: 46px; */
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 991px) {
 	.header__lang-links {
 		margin-right: 24px;
 	}
@@ -17,7 +17,8 @@
 
 @media screen and (max-width: 767px) {
 	.header__lang-links {
-		margin-top: 30px;
-		margin-right: 16px;
+		margin: 30px 16px 0 0;
+		/* margin-top: 30px;
+		margin-right: 16px; */
 	}
 }

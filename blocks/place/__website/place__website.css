@@ -8,9 +8,9 @@
 	padding: 0;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 479px) {
 	.place__website {
-		min-width: 288px;
+		min-width: 90vw;
 		margin: 0 auto;
 	}
 }

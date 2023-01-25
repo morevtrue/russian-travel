@@ -1,13 +1,13 @@
 .footer__copyright {
-	margin: 0;
-	margin-right: 48px;
+	margin: 0 48px 0 0;
+	/* margin-right: 48px; */
 	padding: 0;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.14;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 991px) {
 	.footer__copyright {
 		margin-right: 24px;
 	}
@@ -15,9 +15,10 @@
 
 @media screen and (max-width: 767px) {
 	.footer__copyright {
-		margin-right: 0;
-		margin-left: 16px;
+		margin: 0 0 24px 16px;
+		/* margin-right: 0;
+		margin-left: 16px; */
 		line-height: 1;
-		margin-bottom: 24px;
+		/* margin-bottom: 24px; */
 	}
 }
