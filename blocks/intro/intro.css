@@ -3,23 +3,4 @@
 	flex-direction: column;
 	width: 100%;
 	max-width: 984px;
-	margin: 0 auto;
-}
-
-@media screen and (max-width: 1279px) {
-	.intro {
-		max-width: 90.625vw;
-	}
-}
-
-@media screen and (max-width: 991px) {
-	.intro {
-		max-width: 93.75vw;
-	}
-}
-
-@media screen and (max-width: 767px) {
-	.intro {
-		min-width: 90vw;
-	}
 }
